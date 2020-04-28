@@ -77,7 +77,7 @@ FinaltestRF <- predict(RanforestmodelX, newdata=valid_data)
 FinaltestRF
 
 
-#2° result (got with Classification trees model)
+#2Â° result (got with Classification trees model)
 FinaltestTree <- predict(Treemodel, newdata=valid_data)
 FinaltestTree<-apply(FinaltestTree,1,which.max)
 FinaltestTree
